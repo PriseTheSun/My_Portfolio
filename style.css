@@ -3,7 +3,10 @@
 :root{
     --yellow:#5d24f9;
 }
-
+.details{
+color:#fff;
+font-size: 10px;
+}
 *{
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
