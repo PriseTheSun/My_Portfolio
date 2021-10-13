@@ -54,9 +54,6 @@ section{
     background-image: url(https://th.bing.com/th/id/R.37b11ed288ec415436343565229507b8?rik=foC1OwPwxzM6SQ&pid=ImgRaw&r=0);
     overflow: hidden;
     background-size: cover;
-    
-    
-    
 }
 .btn{
     padding:.7rem 3rem;
@@ -102,6 +99,7 @@ header{
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    
 }
 
 header .user img{
@@ -187,6 +185,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,8 +216,44 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    opacity: 0.5;
+    
 }
-
+.figure{
+    margin-top: 50px;
+    margin-right: 50px;
+    -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+}
 .about .row .counter .box{
     width:20rem;
     background:#222;
