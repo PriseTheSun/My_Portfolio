@@ -3,10 +3,7 @@
 :root{
     --yellow:#5d24f9;
 }
-.details{
-color:#fff;
-font-size: 10px;
-}
+
 *{
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
@@ -49,7 +46,18 @@ section{
     min-height: 100vh;
     padding:1rem;
 }
-
+.details{
+    color:#fff;
+    font-size: 10px;
+    }
+.backimage{
+    background-image: url(https://th.bing.com/th/id/R.37b11ed288ec415436343565229507b8?rik=foC1OwPwxzM6SQ&pid=ImgRaw&r=0);
+    overflow: hidden;
+    background-size: cover;
+    
+    
+    
+}
 .btn{
     padding:.7rem 3rem;
     background:#333;
