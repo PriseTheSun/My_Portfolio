@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=roboto:wght@200;300;400;600&display=swap');
 
 :root{
     --yellow:#5d24f9;
@@ -17,6 +17,10 @@
 *::selection{
     background:var(--yellow);
     color:#333;
+}
+.m1{
+    background-color: #5d24f9;
+    color: #fff;
 }
 
 html{
@@ -46,15 +50,7 @@ section{
     min-height: 100vh;
     padding:1rem;
 }
-.details{
-    color:#fff;
-    font-size: 10px;
-    }
-.backimage{
-    background-image: url(https://th.bing.com/th/id/R.37b11ed288ec415436343565229507b8?rik=foC1OwPwxzM6SQ&pid=ImgRaw&r=0);
-    overflow: hidden;
-    background-size: cover;
-}
+
 .btn{
     padding:.7rem 3rem;
     background:#333;
