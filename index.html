@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/code_ico.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/code_ico.png" type="image/x-icon" />
     <title>Seja bem vindo a meu portifólio</title>
 
     <!-- Import da font cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
 
     <!-- link externo CSS  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- header  -->
 
     <header>
+      <div class="user">
+        <img src="img/img_header.jpg" alt="" />
+        <h3 class="name">Erik Araujo</h3>
+        <p class="post">Front end developer</p>
+      </div>
 
-        <div class="user">
-            <img src="img/img_header.jpg" alt="">
-            <h3 class="name">Erik Araujo</h3>
-            <p class="post">front end developer</p>
-        </div>
-
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#education">Formação</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#education">Formação</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- fim header  -->
@@ -46,12 +44,15 @@
     <!-- inicio home -->
 
     <section class="home" id="home">
-
-        <h3>Saudações !</h3>
-        <h1>Eu Sou <span>Erik Araujo</span></h1>
-        <p>Entusiasta das melhores tecnologias de desenvolvimento web. Apaixonado por lógica e criação. E mesmo depois de tantas tentativas e erros, continuo me especializando em: HTML, JavaScript, Css, Bulma Css FrameWork, React.Js, & WordPress. Acredito que nada neste mundo supera a boa e velha persistência.</p>
-        <a href="#about"><button class="btn">Sobre Mim <i class="fas fa-user"></i></button></a>
-
+      <h3>Saudações !</h3>
+      <h1>Eu Sou <span>Erik Araujo</span></h1>
+      <p>
+        Entusiasta das melhores tecnologias de desenvolvimento web. Apaixonado
+        por design system, resolução de problemas e sua lógica.
+      </p>
+      <a href="#about"><button class="btn">Sobre Mim <i class="fas fa-user"></i></button
+      ></a>
+      
     </section>
 
     <!-- fim home  -->
@@ -59,26 +60,75 @@
     <!-- inicio Sobre  -->
 
     <section class="about" id="about">
+      <h1 class="heading"><span>Sobre </span>mim</h1>
 
-        <h1 class="heading"> <span>Sobre </span>mim</h1>
+      <div class="row">
+        <div class="info">
+          <article>
+            <h3><span>SOFT</span> SKILLS</h3>
+            <p class="soft-text">
+              Olá visitante, Muito prazer. Sou Erik Araújo. Antes que de scroll
+              gostaria que me concedesse um pouco de sua atenção, para que eu
+              possa apresentar minhas Soft Skills. Em boa parte de minha
+              carreira atuei como troubleshooting. O interesse na mudança de
+              segmento surgiu com oque de fato é o desenvolvimento. A
+              possibilidade de criar aplicações robustas com belíssimos layouts.
+              Sou <b class="m1">criativo</b>, <b class="m1">inovador</b>,
+              <b class="m1">comunicativo</b> e adepto do
+              <b class="m1">pensamento crítico</b>, acredito que o
+              <b class="m1">pensamento crítico</b> é a arte de observar,
+              analisar, pensar e emitir pareceres considerando os fatos, carrego
+              este conceito, e o aplico quando na
+              <b class="m1">resolução de problemas</b> desafiando-me a entregar
+              sempre meu melhor. Possuo <b class="m1">comunicação eficaz</b>,
+              assim como uma excelente
+              <b class="m1">capacidade de concentração</b>. Sou
+              <b class="m1">responsável</b>, e <b class="m1">flexível</b>. Adoro
+              o <b class="m1">trabalho em equipe</b>,
+              <b class="m1">colaborar</b> em grandes projetos/feitos,
+              tecnologias acessíveis, intuitivas verdadeiramente úteis aos
+              usuários é um <b class="m1">propósito</b> para mim. Com muito
+              <b class="m1">esforço e força de vontade</b> sigo em ascensão,
+              muito obrigado.
+            </p>
+            <br />
+          </article>
 
-        <div class="row">
+          <article>
+            <h3><span>HARD</span>SKILLS</h3>
+            <p class="hard-text">
+              Ao longo de minha carreira sigo estudando de forma rotineira e
+              disciplinar as tecnologias: <b class="m1">HTML</b>,
+              <b class="m1">JavaScript</b>, <b class="m1">CSS</b> junto a
+              ferramenta de versão <b class="m1">Git</b>. Sou proficiente nos
+              Frameworks <b class="m1">Vue.Js</b>, <b class="m1">Bulma</b> e<b
+                class="m1"
+              >
+                Bootstrap</b
+              >. Assim como no CMS <b class="m1">WordPress</b> e seus editores
+              de bloco <b class="m1">Gutenberg Blocks</b>, e
+              <b class="m1">Elementor</b>. Possuo bons conhecimentos em
+              <b class="m1">Figma</b> voltados a criação do wireframe até a
+              <b class="m1">UI</b>.
+            </p>
+            <br />
+          </article>
 
-            <div class="info">
-                <h3> <span> SOFT</span> SKILLS </h3>
-                <h3><span>Entusiasta de tecnologia. Apaixonado pela liberdade de criar e resolver problemas. Incessantemente busco a tão esperada vaga como desenvolvedor front-end Junior. "Acredito que nada neste mundo supera a boa e velha persistência." . Me considero: criativo, comunicativo, expressivo, multiplicador, e persistente .</span></h3> <br>
-
-                <h3> <span> HARD</span> SKILLS </h3>
-                <h3><span>Em toda minha carreira atuei como troubleshooting. O interesse na mudança de segmento surgiu com oque de fato é o desenvolvimento. A possibilidade de imaginar e criar, e melhor, tornar a aplicação útil para outras pessoas, fortalecendo os conhecimentos e a comunidade ao todo . Tenho me preparado estudando de forma rotineira e disciplinar as tecnologias: <mark class="m1"><strong>Html, JavaScript, Css</strong></mark> e ferramenta de versão <mark class="m1"><strong>Git</strong></mark>. Sou proficiente no Framework <mark class="m1"><strong>Bulma CSS</strong></mark>, assim como no <mark class="m1"><strong>CMS WordPress</strong></mark> utilizando <mark class="m1"><strong>Gutenberg Blocks</strong></mark>, ou <mark class="m1"><strong>Elementor</strong></mark>, voltados a paginas web ou e-commerce . Possuo conhecimento prévio em <mark class="m1"><strong>UX/UI</strong></mark> Utilizando o <mark class="m1"><strong>Figma.</strong></mark></span></h3><br>
-                <a href="assets/documents/Thanks for viewing my document.pdf" download="Thanks for viewing my document.pdf" type="application/pdf"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
-            </div>
-
-            <div class="counter">
-                <figure class="figure"><img src="img/moon.png" alt=""></figure>
-            </div>
-
+          <a
+            href="assets/documents/Thanks for viewing my document.pdf"
+            download="Thanks for viewing my document.pdf"
+            type="application/pdf"
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
         </div>
 
+        <div class="counter">
+          <figure class="figure">
+            <img src="img/moon.png" alt="" />
+          </figure>
+        </div>
+      </div>
     </section>
 
     <!-- fim sobre -->
@@ -86,55 +136,81 @@
     <!-- inicio educação  -->
 
     <section class="education" id="education">
+      <h1 class="heading">Formação <span> Acadêmica</span></h1>
 
-        <h1 class="heading"> Formação <span> Acadêmica</span> </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2019</span>
-                <h3>Univeridade de Guarulhos</h3>
-                <p>Gestão da Tecnologia da informação</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020</span>
-                <h3>Senai</h3>
-                <p>Lógica de Programação</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020</span>
-                <h3>4Linux</h3>
-                <p>Desenvolvimento Web</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020</span>
-                <h3>Estudonalta</h3>
-                <p>* Desenvolvimento Web<br>* WordPress</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020</span>
-                <h3>ProgramadorBr</h3>
-                <p>Desenvolvimento Web</p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2021</span>
-                <h3>ProgramadorBr</h3>
-                <p>Desenvolvimento Web</p>
-            </div>
-
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019</span>
+          <h3>Univeridade de Guarulhos</h3>
+          <p>Gestão da Tecnologia da informação</p>
         </div>
 
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>Senai</h3>
+          <p>Lógica de Programação</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>4Linux</h3>
+          <p>Desenvolvimento Web</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>Estudonalta</h3>
+          <ul class="scholl-list">
+            <li>Desenvolvimento Web</li>
+            <li>WordPress</li>
+            <li>Git & GitHub</li>
+        </ul>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>ProgramadorBr</h3>
+          <p>Desenvolvimento Web</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2021</span>
+          <h3>Udemy</h3>
+          <ul class="scholl-list">
+              <li>Desenvolvimento Web</li>
+              <li>Vue.Js</li>
+              <li>Figma</li>
+              <li>Git</li>
+          </ul>
+          
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>Origamid</h3>
+            <ul class="scholl-list">
+                <li>Web Design</li>
+                <li>UX/UI Design</li>
+                <li>Vue.Js</li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>Udemy</h3>
+            <ul class="scholl-list">
+                <li>SASS</li>
+                <li>Vue.jS</li>
+            </ul>
+        </div>
     </section>
 
     <!-- fim educação -->
@@ -142,46 +218,117 @@
     <!-- portifolio -->
 
     <section class="portfolio" id="portfolio">
+      <h1 class="heading">Meus <span>Projetos</span></h1>
 
-        <h1 class="heading"> Meus <span>Projetos</span> </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <span class="details"><br> I Love my Pugg</span>
-                <a href="https://ilovemypugg.netlify.app/" target="external">
-                    <img src="img/proect_01.jpg" alt="">
-                </a>
-
-            </div>
-
-            <div class="box">
-                <span class="details"><br>Lead Capture Page</span>
-                <a href="https://cappage.netlify.app/" target="external"><img src="img/project_02.jpg" alt=""></a>
-            </div>
-
-            <div class="box">
-                <span class="details"><br> Tokyo Olympic Games 2020</span>
-                <a href="https://quadarodemedalhas.netlify.app/" target="external"><img src="img/project_03.jpg" alt=""></a>
-            </div>
-
-            <div class="box">
-                <span class="details"><br> Ux/Ui Figma Project</span>
-                <a href="https://www.figma.com/proto/H4H7VVR9grLTKIvfnEjh3Q/Untitled?node-id=4%3A509&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=4%3A509" target="external"><img src="img/project_04.jpg" alt=""></a>
-            </div>
-
-            <div class="box">
-                <span class="details"><br>WordPress Project Hamburger | Gutenberg</span>
-                <a href="https://drive.google.com/file/d/125TjBjynbt9rGNz_wWxZgk5dQL0iF0Bn/view?usp=sharing" target="external"><img src="img/project_05.jpg" alt=""></a>
-            </div>
-
-            <div class="box">
-                <span class="details"><br>WordPress Project Woocomerse | Elementor</span>
-                <img src="img/project_06.png" alt="">
-            </div>
-
+      <div class="box-container">
+        <div class="box">
+            <h3 class="details">Js Calculator (HTML, CSS, JS, Bootstrap)</h3><br/>
+          <a href="https://gocalchere.netlify.app" target="external">
+            <img src="img/proect_01.jpg" alt="" />
+          </a>
         </div>
 
+        <div class="box">
+          <h3 class="details">Capture Page (HTML, CSS, JS, MailChimp)</h3><br />
+          <a href="https://cappage.netlify.app/" target="external"
+            ><img src="img/project_02.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+          <h3 class="details">
+              Tokyo Olympic Games 2020 (HTML, CSS, JS)
+              
+        </h3><br/>
+          <a href="https://quadarodemedalhas.netlify.app/" target="external"
+            ><img src="img/project_03.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+          <h3 class="details"
+            >
+            C6BANK Ui Figma Project</h3><br />
+          <a href="https://www.figma.com/file/ftaV59EfkinZUJElwTzHs5/C6?node-id=0%3A1"
+            target="external">
+            <img src="img/project_04.jpg" alt=""/>
+        </a>
+        </div>
+
+        <div class="box">
+          <h3 class="details">
+            Project Hamburger (WordPress, Gutenberg)</h3
+          ><br />
+          <a
+            href="https://drive.google.com/file/d/125TjBjynbt9rGNz_wWxZgk5dQL0iF0Bn/view?usp=sharing"
+            target="external"
+            ><img src="img/project_05.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+          <h3 class="details"
+            >E-Commerce (WordPress, Woocomerse, Elementor)</h3
+          ><br />
+          <a
+          href="https://marketplace.exodialab.com/" target="external"
+          ><img src="img/project_07.jpg" alt=""
+        /></a>
+        </div>
+
+        <div class="box">
+            <h3 class="details"
+              >Freelancer (WordPress, Elementor)</h3
+            ><br />
+            <a
+            href="https://baquellites.com.br/" target="external"
+            ><img src="img/project_08.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+            <h3 class="details"
+              >Freelancer (WordPress, Elementor)</h3
+            ><br />
+            <a
+            href="https://cleanobre.exodialab.com/" target="external"
+            ><img src="img/project_09.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+            <h3 class="details"
+              >Amazon (HTML, JS, CSS)</h3
+            ><br />
+            <a
+            href="https://amozonfrombrazil.netlify.app/" target="external"
+            ><img src="img/project_10.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+            <h3 class="details"
+              >To-Do List (Vue.Js, HTML, JS, CSS)</h3
+            ><br />
+            <a
+            href="https://praticandovuejs.netlify.app/" target="external"
+            ><img src="img/project_11.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="box">
+            <h3 class="details"
+              >LandinPage (Vue.Js, Chart.Js, MocAPI)</h3
+            ><br />
+            <a
+            href="https://desafioeasyjur.netlify.app/" target="external"
+            ><img src="img/project_12.jpg" alt=""
+          /></a>
+        </div>
+
+
+      </div>
+      
     </section>
 
     <!-- portfolio section ends -->
@@ -189,70 +336,82 @@
     <!-- contact section starts  -->
 
     <section class="contact" id="contact">
+      <h1 class="heading"><span>Entre em </span>Contato</h1>
 
-        <h1 class="heading"> <span>Entre em </span>Contato</h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Informações de Contato</h3>
 
-        <div class="row">
-
-            <div class="content">
-
-                <h3 class="title">Informações de Contato</h3>
-
-                <div class="info">
-                    <h3> <i class="fas fa-envelope"></i> erik.doctype@gmail.com </h3>
-                    <h3> <i class="fas fa-phone"></i> (+55)11 9 6874-6350 </h3>
-                    <h3> <i class="fas fa-map-marker-alt"></i> São Paulo, Guarulhos . </h3>
-                </div>
-
-            </div>
-
-            <form action="https://api.staticforms.xyz/submit" method="POST">
-                <input type="hidden" name="accessKey" value="adf1264f-4141-43df-9bf5-e288dc3335de">
-                <input type="hidden" name="redirectTo" value="https://deverikaraujo.netlify.app">
-
-                <input type="text" placeholder="name" name="name" class="box" required>
-                <input type="email" placeholder="email" name="email" class="box" required>
-                <input type="text" placeholder="Assunto" name="subject" class="box" required>
-                <textarea name="message" id="textareaMenssage" cols="30" rows="10" class="box message" placeholder="message" required></textarea>
-                <button type="submit" class="btn"> enviar <i class="fas fa-paper-plane"></i> </button>
-
-
-            </form>
-
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> erik.doctype@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> (+55)11 9 6874-6350</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> São Paulo, Guarulhos .
+            </h3>
+          </div>
         </div>
 
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+          <input
+            type="hidden"
+            name="accessKey"
+            value="adf1264f-4141-43df-9bf5-e288dc3335de"
+          />
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://deverikaraujo.netlify.app"
+          />
+
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            class="box"
+            required
+          />
+          <input
+            type="email"
+            placeholder="email"
+            name="email"
+            class="box"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Assunto"
+            name="subject"
+            class="box"
+            required
+          />
+          <textarea
+            name="message"
+            id="textareaMenssage"
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">
+            enviar <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
     </section>
 
     <!-- contact section ends -->
 
-
     <!-- scroll top button  -->
 
     <a href="#home" class="top">
-        <img src="images/scroll-top-img.png" alt="">
+      <img src="images/scroll-top-img.png" alt="" />
     </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- custom js file link  -->
     <script src="script.js"></script>
-
-
-</body>
-
+  </body>
 </html>

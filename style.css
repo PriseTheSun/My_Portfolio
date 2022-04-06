@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=roboto:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#5d24f9;
+    --blue:#5d24f9;
 }
 
 *{
@@ -10,18 +10,22 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
 *::selection{
-    background:var(--yellow);
+    background:var(--blue);
     color:#333;
 }
 .m1{
-    background-color: #5d24f9;
+    
     color: #fff;
 }
+
+.m1:hover{
+    background-color: #5d24f9;
+}
+
 
 html{
     font-size: 62.5%;
@@ -37,7 +41,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 body{
@@ -67,7 +71,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 .heading{
@@ -80,7 +84,7 @@ section{
 }
 
 .heading span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 header{
@@ -104,7 +108,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.7rem solid var(--blue);
 }
 
 header .user .name{
@@ -138,7 +142,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 #menu{
@@ -152,6 +156,7 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
+
 
 .home{
     display: flex;
@@ -171,7 +176,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .home p{
@@ -197,7 +202,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color:var(--yellow);
+    color:var(--blue);
     padding:1rem 0;
     font-weight: normal;
 }
@@ -214,6 +219,22 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     opacity: 0.5;
     
+}
+.soft-text{
+    color:#eee;
+    font-size: 15px;
+}
+.hard-text{
+    color:#eee;
+    font-size: 15px;
+}
+.scholl-list{
+    color:#eee;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.details{
+    color: #eee;
 }
 .figure{
     margin-top: 50px;
@@ -260,7 +281,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .about .row .counter .box h3{
@@ -315,7 +336,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#fff;
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 .portfolio .box-container{
@@ -402,7 +423,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .top{
